@@ -10,4 +10,4 @@ puts false && 4
 puts 4 && false
 puts 3 || 4 #return first element if both value true
 puts false || 4
-puts 3 || false
+#puts 3 || false
