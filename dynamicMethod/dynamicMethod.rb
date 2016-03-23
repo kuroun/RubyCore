@@ -4,6 +4,7 @@ class A
     puts "hello"
   end  
 end
+
 a = A.new
 #using call keyword, can call private method
 method = a.method(:m)
