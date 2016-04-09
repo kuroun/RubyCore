@@ -1,6 +1,6 @@
 module Student
   def gpa
-    puts "here is gpa"
+    puts "here is gpa student"
   end
 end
 module Person
@@ -18,7 +18,7 @@ class PhdStudent
   end
 end
 class MasterStudent
-  include Student, Person
+  include Person,Student 
   # def gpa
     # puts "gpa override by master"
   # end
