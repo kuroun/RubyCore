@@ -33,3 +33,4 @@ hash[:three]= hash[:three] << 3
 p hash[:three]
 p hash
 # thus, every update to hash will affect the default value
+

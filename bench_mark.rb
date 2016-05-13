@@ -14,4 +14,3 @@ end.total
 
 puts "String: " + str.to_s
 puts "Symbol: " + sym.to_s
-puts
